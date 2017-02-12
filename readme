@@ -1,0 +1,17 @@
+    keypair: ansible              // run "aws configure" to realign key
+    instance_type: t2.micro
+    security_group: sg-415be226   //open your incoming ip on security group
+    image: ami-83a713e0
+    region: ap-southeast-1       //singapore region
+    subnet: subnet-f06e1a86
+    groupname: webservers
+
+
+
+ami locator
+https://cloud-images.ubuntu.com/locator/ec2/
+
+Instance type : 
+hvm:ebs-ssd
+Ubuntu trusty
+
